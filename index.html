@@ -22,7 +22,8 @@ nav{
     justify-content: space-around;
     height: 80px;
     align-items: center;
-    background-color: rgb(148, 174, 252);
+    background-color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav ul{
     display: flex;
@@ -32,22 +33,38 @@ nav ul li{
     list-style: none;
     margin: 0 22px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
 .left{
     font-size: 1.6rem;
 }
 .First{
     display: flex;
-    justify-content: space-around;
-    margin: 25px 0;
+    align-items: center;
+    height: 300px;
+    background-color: aqua;
 }
 .First div{
-    width:30%;
+    width:40%;
 }
 .leftSection{
-    background-color: chartreuse;
+    display: inline;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family:sans-serif;
+    margin-left: 150px;
 }
 .rightSection{
-    background-color: chartreuse;
+    font-size: 2.3rem;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family:sans-serif;
+}
+.Name{
+    color: purple;
 }
     </style>
 </head>
@@ -57,18 +74,24 @@ nav ul li{
          <div class="left">Bhagirath's Portfolio</div>
          <div class="right">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">My Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
             </ul>
          </div>
     </nav>
     </header>
     <main>
         <section class="First">
-            <div class="leftSection">Left</div>
-            <div class="rightSection">Right</div>
+            <div class="leftSection">
+                Hi , My name is<span class="Name"> Bhagirath</span>
+                and I'm a passionate web developer.
+            </div>
+            <div class="rightSection">
+                
+            </div>
+            </div>
         </section>
     </main>
     
