@@ -258,3 +258,6 @@ nav ul li a{
     align-items: center;
     padding:10px;
 }
+.connect a{
+    color: rgb(246, 176, 246);
+}
